@@ -81,7 +81,8 @@ Use the [print-ready Pathfinder2026 AprilTags](../../apriltags/README.md) and ve
 
 - Location: top left.
 - AprilTag: 584.
-- Place yellow blocks near the AprilTag.
+- Place one yellow block on top of each black foam block.
+- Place the remaining yellow blocks in a row at the end of the green line next to the AprilTag.
 - Test yellow visibility under event lighting before final scoring is locked.
 
 ## Area 4: Delivery Zone
