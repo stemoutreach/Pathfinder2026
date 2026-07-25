@@ -85,6 +85,8 @@ ssh robot@<ROBOT_IP>
 
 If the team changes Pi 500s, repeat this key setup from the new Pi 500.
 
+After SSH works, VS Code Remote SSH can connect to `robot@<ROBOT_IP>`. The first VS Code connection may install its server component on the robot automatically; let it finish before opening `/home/robot/team_code`.
+
 ## Step 2: Check Battery
 
 **Do this FIRST every time you connect!**

@@ -18,6 +18,8 @@
 
 After completing these steps you will have an SD card that can be cloned for all workshop robots. Each robot gets an identical image; WiFi credentials are included, and the robot IP is confirmed at event time.
 
+This guide is only for building the robot OS image. Pi 500-to-robot connection, VS Code Remote SSH, and hardware wiring tests happen during the workshop in [Connect and Test](CONNECT_AND_TEST.md).
+
 **Materials:** see [BOM_TEAM_KIT.md](BOM_TEAM_KIT.md) in this folder for the robot/setup BOM.
 
 ---
@@ -56,7 +58,7 @@ Click **Write** and wait for completion.
 
 ---
 
-## Step 2: Boot and Connect
+## Step 2: Boot and SSH For Image Build
 
 1. Insert SD card into Pi 4
 2. Power on
@@ -68,14 +70,10 @@ Click **Write** and wait for completion.
 
    # Or check your router / DHCP client list
    ```
-5. SSH in using the robot IP address:
+5. SSH in from your image-build computer using the robot IP address:
    ```bash
    ssh robot@<ROBOT_IP>
    ```
-
-> **Remote development:** With SSH enabled here, the Pi 500 can connect to this robot using VSCode Remote SSH. See [PI500_OS_BUILD.md](PI500_OS_BUILD.md) for Pi 500 configuration.
-
----
 
 ## Step 3: System Updates
 
@@ -229,42 +227,11 @@ python3 -c "import numpy; print(f'NumPy: OK')"
 
 All should print without errors.
 
-If the Logitech F710 receiver is plugged into the robot Pi, you can also check:
-
-```bash
-lsusb | grep -i logitech
-ls /dev/input/js*
-```
-
 > **Flask version warning:** Flask 3.1+ shows a deprecation warning when accessing `flask.__version__`. This is harmless â Flask is working correctly.
 
 ---
 
-## Step 6: VS Code Remote SSH Support
-
-The robot must support VS Code Remote SSH connections from the Pi 500. It does this through SSH plus a small VS Code server component that Remote SSH installs automatically.
-
-Do not install the full VS Code desktop app with `sudo apt-get install -y code` on the robot for the event workflow. Install VS Code on the Pi 500, then connect to `robot@<ROBOT_IP>` with Remote SSH. The first connection installs the VS Code server component on the robot automatically.
-
-### Preload Remote Python Support
-
-During robot image validation, connect to the robot once from VS Code on a Pi 500 using Remote SSH. This installs the VS Code server on the robot and lets you install the Python extension into the remote robot environment before the workshop.
-
-From the Pi 500:
-
-1. Open VS Code.
-2. `Ctrl+Shift+P` -> `Remote-SSH: Connect to Host`.
-3. Connect to `robot@<ROBOT_IP>`.
-4. Open the Extensions panel.
-5. Find `Python` by Microsoft (`ms-python.python`).
-6. Choose **Install in SSH: robot@<ROBOT_IP>** if it is not already installed on the remote robot.
-7. Open `/home/robot/team_code` and confirm a `.py` file shows Python language support.
-
-This remote extension is stored under the `robot` user's VS Code server files on the robot image. It is different from installing the Python extension on the Pi 500 itself.
-
----
-
-## Step 7: Install Pathfinder2026
+## Step 6: Install Pathfinder2026
 
 ### Clone Repository
 ```bash
@@ -315,7 +282,7 @@ All imports OK!
 
 ---
 
-## Step 8: Verify User Permissions
+## Step 7: Verify User Permissions
 
 The `robot` user should already have the correct groups from Raspberry Pi Imager. Verify:
 
@@ -335,160 +302,7 @@ sudo usermod -a -G dialout,i2c,gpio,video robot
 
 ---
 
-## Step 9: Test Hardware
-
-**Important:** robot must be assembled with batteries installed before this step.
-
-### Battery
-```bash
-cd /home/robot/pathfinder
-python3 -c "
-from lib.board import get_board
-import time
-board = get_board()
-time.sleep(1)
-for i in range(5):
-    mv = board.get_battery()
-    if mv and 5000 < mv < 20000:
-        print(f'Battery: {mv/1000:.2f}V')
-        break
-    time.sleep(0.3)
-else:
-    print('No battery reading â check motor board power')
-"
-```
-
-### Buzzer
-```bash
-python3 -c "
-from lib.board import get_board
-import time
-board = get_board(); time.sleep(0.5)
-board.set_buzzer(1000, 0.1, 0.1, 2)
-print('You should hear 2 beeps')
-"
-```
-
-### Servos
-```bash
-python3 -c "
-from lib.board import get_board
-import time
-board = get_board(); time.sleep(0.5)
-board.set_servo_position(1000, [(1,2500),(3,590),(4,2450),(5,700),(6,1500)])
-print('Arm should move to camera-forward position')
-"
-```
-
-### Motors
-```bash
-python3 -c "
-from lib.board import get_board
-import time
-board = get_board(); time.sleep(0.5)
-board.set_motor_duty([(1,30),(2,30),(3,30),(4,30)])
-time.sleep(0.5)
-board.set_motor_duty([(1,0),(2,0),(3,0),(4,0)])
-print('robot should have moved forward briefly')
-"
-```
-
-### Camera
-```bash
-python3 -c "
-import cv2
-cam = cv2.VideoCapture(0)
-import time; time.sleep(1)
-ret, frame = cam.read()
-if ret: print(f'Camera: {frame.shape[1]}x{frame.shape[0]} OK')
-else: print('Camera: FAILED â check USB connection')
-cam.release()
-"
-```
-
-> **GStreamer warning:** On Trixie you may see `GStreamer warning: Cannot query video position` â this is harmless, the camera works fine.
-
-### Sonar
-```bash
-python3 -c "
-from lib.sonar import Sonar
-import time
-sonar = Sonar()
-for i in range(3):
-    d = sonar.get_distance()
-    if d is not None: print(f'Sonar: {d:.0f} mm')
-    else: print('Sonar: No reading')
-    time.sleep(0.3)
-"
-```
-
-### Full Test (All at Once)
-```bash
-cd /home/robot/pathfinder
-python3 -c "
-from lib.board import get_board, PLATFORM
-from lib.sonar import Sonar
-import cv2, time
-
-print('Pathfinder2026 Hardware Test')
-print('Platform:', PLATFORM)
-print()
-
-board = get_board()
-time.sleep(1)
-
-# Battery
-for i in range(5):
-    mv = board.get_battery()
-    if mv and 5000 < mv < 20000:
-        print(f'Battery: {mv/1000:.2f}V')
-        break
-    time.sleep(0.3)
-else:
-    print('Battery: FAILED')
-
-# Buzzer
-board.set_buzzer(1000, 0.1, 0.1, 2)
-print('Buzzer: Sent 2 beeps')
-
-# Servos
-board.set_servo_position(1000, [(1,2500),(3,590),(4,2450),(5,700),(6,1500)])
-time.sleep(1.5)
-print('Servos: Camera forward position set')
-
-# Motors
-board.set_motor_duty([(1,30),(2,30),(3,30),(4,30)])
-time.sleep(0.3)
-board.set_motor_duty([(1,0),(2,0),(3,0),(4,0)])
-print('Motors: Brief forward sent')
-
-# Sonar
-sonar = Sonar()
-d = sonar.get_distance()
-if d is not None: print(f'Sonar: {d:.0f} mm')
-else: print('Sonar: No reading')
-
-# Camera
-cam = cv2.VideoCapture(0)
-time.sleep(1)
-ret, frame = cam.read()
-if ret:
-    print(f'Camera: {frame.shape[1]}x{frame.shape[0]} OK')
-    from pupil_apriltags import Detector
-    det = Detector(families='tag36h11')
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    tags = det.detect(gray)
-    print(f'AprilTags: {len(tags)} detected')
-cam.release()
-
-print()
-print('Hardware test complete!')
-"
-```
-
----
-
-## Step 10: Enable Startup Service
+## Step 8: Enable Startup Service
 
 `start_robot.py` runs automatically at boot and verifies all hardware is ready.
 
@@ -502,13 +316,6 @@ print('Hardware test complete!')
 **Feedback (no screen needed):**
 - **All clear:** 2 quick beeps + green LEDs for 5 seconds then off
 - **Needs attention:** 5 slow beeps + red LEDs stay on until next boot
-
-### Run Manually to Verify
-
-```bash
-cd /home/robot/pathfinder
-python3 start_robot.py
-```
 
 ### Install the Service
 
@@ -525,11 +332,13 @@ sudo bash scripts/setup/install_services.sh
 journalctl -u pathfinder-startup.service
 ```
 
+Do not use this OS build guide for event hardware testing. Battery, motor, servo, sonar, camera, SSH, and Pi 500 connection checks are in [Connect and Test](CONNECT_AND_TEST.md).
+
 ---
 
-## Step 11: Clone the Image
+## Step 9: Clone the Image
 
-Once one SD card is fully set up and tested, clone it for all robots:
+Once one SD card is fully configured, clone it for all robots:
 
 ### On Linux/Mac
 ```bash
@@ -573,8 +382,6 @@ sudo nmcli dev wifi connect "SSID" password "PASSWORD"
 | NumPy | 2.2.4 | Math operations |
 | pygame | apt package | Gamepad input |
 | joystick | apt package | `/dev/input/js*` gamepad tools |
-| Visual Studio Code | 1.119+ | Code editor |
-| Python extension (ms-python) | 2026.4+ | Python language support in VS Code |
 | Pathfinder2026 | Latest | robot framework |
 
 ## Quick Reference: Hardware Interfaces
@@ -590,22 +397,6 @@ sudo nmcli dev wifi connect "SSID" password "PASSWORD"
 ---
 
 ## Troubleshooting
-
-### No battery reading
-- Check motor board power switch (must be ON)
-- Check battery voltage (needs >7.0V)
-- Try: `sudo i2cdetect -y 1` â should show `77` (sonar). **Note:** The motor board (`0x7A`) does NOT appear in `i2cdetect` output â it uses a non-standard probe response. Presence of `77` confirms I2C wiring is good; use the Python battery test to confirm the motor board is responding.
-
-### Motors don't move
-- Battery must be >7.0V
-- Motor power minimum: 28-30 to overcome friction
-- Check motor cables connected to board
-
-### Camera not found
-- Check USB cable
-- Try: `ls /dev/video0`
-- If locked: `lsof /dev/video0` â another process using it?
-- GStreamer warning is harmless on Trixie
 
 ### UART not available / serial0 â ttyS0
 - Bluetooth is still active â verify `dtoverlay=disable-bt` is in `/boot/firmware/config.txt` under `[all]`
@@ -657,6 +448,6 @@ sudo reboot
 ---
 
 *Created: March 26, 2026*
-*Updated: June 18, 2026 - aligned to Raspberry Pi OS release 2026-06-18 and Raspberry Pi Imager 2.0.0*
+*Updated: July 24, 2026 - narrowed to robot OS image build steps; event connection and hardware tests moved to Connect and Test*
 *Last tested: June 18, 2026*
 *Tested on: Raspberry Pi 4 Model B, Raspberry Pi OS 64-bit, Debian 13 Trixie, kernel 6.18, Python 3.13.x*
