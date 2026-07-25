@@ -41,11 +41,6 @@ The Pi 500's keyboard is built-in — no separate keyboard needed.
 
 1. Plug in power
 2. Wait for desktop to appear (~30 seconds)
-3. If prompted for password, enter the one set during imaging
-
-If the Raspberry Pi configuration or password screen appears, keep the event hostname as `pihub` and use the password provided for the event.
-
-<img src="../images/pi500/04_pi_config_password.jpg" width="500" alt="Raspberry Pi configuration password screen">
 
 ## Step 3: Connect to WiFi
 
