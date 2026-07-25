@@ -10,7 +10,7 @@ This is an event-time step. The robot SD card image should already be created be
 
 - robot is assembled: [robot Assembly Guide](../workshop/ROBOT_ASSEMBLY_GUIDE.md)
 - robot batteries are installed and charged
-- `GuestWifi.pdf` is available on the robot Pi desktop
+- `GuestWireless.pdf` is available on the robot Pi desktop
 
 ## Step 1: Connect The robot Pi To A Monitor And Mouse
 
@@ -36,7 +36,7 @@ There are two robot power switches: one on the motor controller and one on the b
 
 Use the Pi 500 mouse to make the WiFi changes on the robot Pi. Use the on-screen keyboard if one appears.
 
-Open `GuestWifi.pdf` from the robot Pi desktop and use the same workshop WiFi instructions used for the Pi 500.
+Open `GuestWireless.pdf` from the robot Pi desktop and use the same event WiFi instructions used for the Pi 500.
 
 Check the network icon at the top-right of the taskbar. If the network icon looks disconnected, click it and select the correct workshop WiFi network.
 

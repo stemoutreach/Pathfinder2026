@@ -46,6 +46,8 @@ The Pi 500's keyboard is built-in — no separate keyboard needed.
 
 <img src="../images/pi500/05_wifi_setup.jpg" width="250" alt="WiFi setup menu">
 
+Open `GuestWireless.pdf` from the Pi 500 desktop and use the event WiFi instructions in that document.
+
 1. Click the network icon in the top-right taskbar
 2. Select your workshop WiFi network
 3. Enter password if required
