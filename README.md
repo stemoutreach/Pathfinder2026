@@ -6,6 +6,8 @@
 
 Pathfinder2026 is the event repo for the 2026 Pathfinder robot workshop. Participants should use this page as the starting point.
 
+![Pi 500 and Pathfinder robot event setup](docs/images/2025Setup500Robot.jpg)
+
 The workshop flow has three phases:
 
 1. Assemble
