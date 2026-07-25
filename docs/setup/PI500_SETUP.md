@@ -110,7 +110,7 @@ The Pi 500 control hub is now ready. You may not be ready to connect to the robo
 Use the GitHub repo as the main source:
 
 ```text
-https://github.com/luminerdy/Pathfinder2026
+https://github.com/stemoutreach/Pathfinder2026
 ```
 
 Open `README.md` from the repo page and start with the three phase links.

@@ -113,7 +113,7 @@ python3 -c "import smbus2; print('SMBus2: OK')"
 ```bash
 mkdir -p /home/robot/code
 cd /home/robot/code
-git clone https://github.com/luminerdy/Pathfinder2026.git pathfinder
+git clone https://github.com/stemoutreach/Pathfinder2026.git pathfinder
 ```
 
 ### Verify Clone

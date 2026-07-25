@@ -108,7 +108,7 @@ sudo usermod -a -G dialout,i2c,gpio,spi $USER
 cd ~
 mkdir -p code
 cd code
-git clone https://github.com/luminerdy/Pathfinder2026.git pathfinder
+git clone https://github.com/stemoutreach/Pathfinder2026.git pathfinder
 cd pathfinder
 ```
 
@@ -337,7 +337,7 @@ Run calibration to adjust these values for your specific robot.
 ## Support
 
 **Issues or questions:**
-- GitHub: https://github.com/luminerdy/Pathfinder2026/issues
+- GitHub: https://github.com/stemoutreach/Pathfinder2026/issues
 - Check existing docs in `/docs` directory
 - Review [HIWONDER_SYSTEM_REFERENCE.md](HIWONDER_SYSTEM_REFERENCE.md) for Hiwonder compatibility
 

@@ -270,7 +270,7 @@ This remote extension is stored under the `robot` user's VS Code server files on
 ```bash
 mkdir -p /home/robot/pathfinder
 cd /home/robot/pathfinder
-git clone https://github.com/luminerdy/Pathfinder2026.git .
+git clone https://github.com/stemoutreach/Pathfinder2026.git .
 ```
 
 ### Verify Clone

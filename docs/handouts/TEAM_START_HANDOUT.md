@@ -27,7 +27,7 @@ If the team gets stuck, Person 3 should compare notes with another team before a
 On the Pi 500, open a browser and go to:
 
 ```text
-https://github.com/luminerdy/Pathfinder2026
+https://github.com/stemoutreach/Pathfinder2026
 ```
 
 Or scan:

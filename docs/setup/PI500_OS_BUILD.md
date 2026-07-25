@@ -81,7 +81,7 @@ sudo apt install -y git
 
 # Optional: clone the workshop repository for local docs, checklists, and examples
 cd ~
-git clone https://github.com/luminerdy/Pathfinder2026.git
+git clone https://github.com/stemoutreach/Pathfinder2026.git
 cd Pathfinder2026
 ```
 
