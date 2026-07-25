@@ -26,8 +26,6 @@
 
 ## Layout Diagram
 
-![Clean top-down competition field layout](../images/competition/field-overhead-clean.png)
-
 This is a planning diagram, not a measured build drawing.
 
 ```text
