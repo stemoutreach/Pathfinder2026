@@ -21,19 +21,6 @@ For a short team-facing checklist, use [Team Start Handout](../handouts/TEAM_STA
 - USB mouse
 - Power supply (USB-C)
 
-## Photos In This Guide
-
-These images are stored in this repo under `docs/images/pi500/`.
-
-| Photo file | Show |
-|------------|------|
-| `docs/images/pi500/01_pi500_connection.jpg` | Pi 500 connected to monitor, mouse, and power |
-| `docs/images/pi500/02_pi500_connection_closeup.jpg` | Pi 500 connection closeup |
-| `docs/images/pi500/03_pi500_boot_desktop.jpg` | Pi 500 after boot |
-| `docs/images/pi500/04_pi_config_password.jpg` | Raspberry Pi configuration/password screen |
-| `docs/images/pi500/05_wifi_setup.jpg` | WiFi network menu |
-| `docs/images/pi500/06_open_terminal.jpg` | Terminal menu location |
-
 ## Step 1: Connect Hardware
 
 <img src="../images/pi500/01_pi500_connection.jpg" width="400" alt="Pi 500 connected to monitor and mouse">
