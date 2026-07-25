@@ -133,4 +133,10 @@ Robot SSH, file copy, and camera web links start after [robot Pi WiFi Setup](ROB
 
 ---
 
+## Troubleshooting
+
+If the Pi 500 asks for a login password, ask a facilitator. The event image password is `R4spb3rry`.
+
+---
+
 **Next when the robot is ready:** [robot Pi WiFi Setup](ROBOT_PI_WIFI_SETUP.md)
