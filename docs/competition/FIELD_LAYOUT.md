@@ -8,6 +8,8 @@
 
 ## Field Overview
 
+![Pathfinder2026 competition field overview](../images/competition/field-overview.png)
+
 - **Size:** 12 ft x 12 ft field.
 - **Surface:** Interlocking foam tiles.
 - **Boundary:** Landscape edging around the outside perimeter.
@@ -21,7 +23,7 @@
 |------|----------------|----------|--------------|---------------|
 | Area 1 | Bottom right | 582 | Start and open collection | Blue blocks scattered in open area |
 | Area 2 | Top right | 583 | Red block pickup corner | Red blocks in the 2 ft corner area with the AprilTag |
-| Area 3 | Top left | 584 | Yellow block pickup corner | Yellow blocks near the AprilTag |
+| Area 3 | Top left | 584 | Yellow block pickup corner | Yellow blocks on black foam blocks, plus remaining blocks in a row near the AprilTag |
 | Area 4 | Bottom left | 585 | Delivery | 2 ft delivery zone at the AprilTag, taped off with white gaffers tape |
 
 ## Layout Diagram
