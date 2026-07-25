@@ -1,6 +1,6 @@
 # Field Layout
 
-**Last Updated:** July 11, 2026
+**Last Updated:** July 25, 2026
 **Status:** Draft layout notes
 **Companion docs:** [Scoring](SCORING.md) · [Competition Field BOM](BILL_OF_MATERIALS.md)
 
@@ -25,6 +25,8 @@
 | Area 4 | Bottom left | 585 | Delivery | 2 ft delivery zone at the AprilTag, taped off with white gaffers tape |
 
 ## Layout Diagram
+
+![Clean top-down competition field layout](../images/competition/field-overhead-clean.png)
 
 This is a planning diagram, not a measured build drawing.
 
