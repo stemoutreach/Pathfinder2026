@@ -110,6 +110,19 @@ You should see files like `README.md`, the `docs/` folder, and `docs/workshop/AS
 
 ---
 
+## Optional: Verify AI CLI Tools
+
+AI CLI tools may be preinstalled on the Pi 500 image, but they are optional and should not block workshop progress.
+
+```bash
+codex --version
+claude --version
+```
+
+Do not configure AI tokens or logins unless a facilitator tells you to use them. See [AI CLI setup](../support/AI_CLI_SETUP.md).
+
+---
+
 ## What To Do While The robot Is Still Being Built
 
 - Help the robot assembly team with the checklist.

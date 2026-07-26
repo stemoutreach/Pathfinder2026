@@ -8,5 +8,6 @@ Use these pages when a phase guide tells you to, or when something is not workin
 | Battery handling and voltage limits | [Battery safety](BATTERY_SAFETY.md) |
 | Where code lives | [Where the code lives](CODE_LOCATION.md) |
 | Safe team code edits | [Team code workflow](TEAM_CODE_WORKFLOW.md) |
+| Optional AI CLI tools on Pi 500 | [AI CLI setup](AI_CLI_SETUP.md) |
 | robot connection help | [robot connection reference](ROBOT_CONNECTION_REFERENCE.md) |
 | Update robot code | [Update robot code](UPDATE_ROBOT_CODE.md) |

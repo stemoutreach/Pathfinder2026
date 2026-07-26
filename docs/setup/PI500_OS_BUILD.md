@@ -34,7 +34,7 @@ The Pi 500 is your **command center** — you'll use it to write code, SSH into 
 3. Open Raspberry Pi Imager
 4. Choose OS: **Raspberry Pi OS (64-bit)** — Desktop version, released 2026-06-18
 5. Choose Storage: Select your microSD card
-6. Click the **gear icon** (⚙️) for advanced settings:
+6. Click the **settings icon** for advanced settings:
    - Set device name / hostname: `pihub`
    - Enable SSH (password authentication)
    - Set username: `pi500`
@@ -129,6 +129,43 @@ Or install them through the VS Code interface:
    - **Python** (Microsoft)
    - **Remote - SSH** (Microsoft)
 
+## Step 8: Optional AI CLI Tools
+
+AI CLI tools are optional helper tools for the Pi 500 only. Preinstalling them on the Pi 500 image can save event time, but do not configure tokens or logins in the shared image.
+
+Do not install AI CLI tools on the robot.
+
+Install `curl`, which is used by the tool installers:
+
+```bash
+sudo apt install -y curl
+curl --version
+```
+
+Install Codex CLI:
+
+```bash
+curl -fsSL https://chatgpt.com/codex/install.sh | sh
+```
+
+Install Claude CLI:
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+Verify:
+
+```bash
+codex --version
+claude --version
+claude doctor
+```
+
+Leave both tools unconfigured. Teams or facilitators can configure them later only if needed.
+
+See [AI CLI setup](../support/AI_CLI_SETUP.md) for the event policy and safe-use notes.
+
 ---
 
 ## What's on the Pi 500
@@ -143,6 +180,7 @@ After setup, your Pi 500 has:
 | Visual Studio Code + Remote SSH | Write and run robot code directly on the robot |
 | Pathfinder2026 repo | Local copy of workshop docs, checklists, and examples |
 | Terminal | Command line for SSH, git, python |
+| Optional AI CLI tools | Codex CLI and Claude CLI if preinstalled, not configured |
 
 ## What's NOT on the Pi 500
 
@@ -150,6 +188,7 @@ After setup, your Pi 500 has:
 - No hardware SDK (robot only)
 - No camera access to robot camera (use SSH + web interface)
 - No OpenCV, AprilTag, or NumPy required unless doing optional Pi 500-side vision testing
+- No AI tokens or logins stored in the shared image
 
 The Pi 500 is the **brain**. The robot is the **body**. They talk over WiFi.
 
