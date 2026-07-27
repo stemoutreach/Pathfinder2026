@@ -37,11 +37,14 @@ This guide is for the event table. The robot image should already be created bef
 
 ## Step 3: Motor Assembly
 
+<img src="../images/robot/04_motor_hardware.jpg" width="400" alt="PM3x25 screws and M3 nuts">
+
 <img src="../images/robot/04_motor_assembly.jpg" width="400" alt="motors installed on chassis">
 
-1. Mount the motor brackets.
-2. Route motor wires through the side opening so they cannot touch the wheels.
-3. Check that each motor is secure before installing wheels.
+1. Find the `PM3*25` screws and `M3` nuts.
+2. Mount the motor brackets.
+3. Route motor wires through the side opening so they cannot touch the wheels.
+4. Check that each motor is secure before installing wheels.
 
 ## Step 4: Mecanum Wheels
 
