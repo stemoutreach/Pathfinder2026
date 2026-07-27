@@ -111,25 +111,27 @@ This guide is for the event table. The robot image should already be created bef
 4. Confirm no cable can touch a wheel.
 5. Do not install batteries yet.
 
-## Step 10: Arm And Gripper
+## Step 10: Arm, Gripper, And Sonar
 
-<img src="../images/robot/11_arm_assembly.jpg" width="400" alt="arm and gripper assembly">
+<img src="../images/robot/11_arm_assembly.jpg" width="400" alt="arm, gripper, and sonar assembly">
 
 1. Attach the arm base to the robot.
 2. Attach shoulder, elbow, wrist, and gripper assemblies.
-3. Move the arm gently by hand before powering servos.
-4. Check that the gripper can open and close without hitting the chassis.
+3. Plug the ultrasonic sonar sensor into the middle slot before mounting the arm.
+4. Move the arm gently by hand before powering servos.
+5. Check that the gripper can open and close without hitting the chassis.
+6. Make sure sonar is not blocked by the arm, camera, or team-built storage.
 
-## Step 11: Camera And Sonar
+## Step 11: Power And Camera Connections
 
 <img src="../images/robot/12_wiring_diagram.jpg" width="400" alt="robot wiring diagram">
 
 <img src="../images/robot/13_power_camera.jpg" width="400" alt="power and camera connections">
 
-1. Mount the camera where it can see the floor in front of the robot.
-2. Keep the camera cable away from wheels and arm joints.
-3. Mount sonar facing forward and level.
-4. Make sure sonar is not blocked by the arm, camera, or team-built storage.
+1. Plug battery power into the expansion board.
+2. Plug the camera into the middle USB port.
+3. Mount the camera where it can see the floor in front of the robot.
+4. Keep the camera cable away from wheels and arm joints.
 
 ## Step 12: Battery And Cable Check
 
