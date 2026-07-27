@@ -21,6 +21,7 @@ Used in `docs/workshop/ROBOT_ASSEMBLY_GUIDE.md`:
 - `11_arm_assembly.jpg`
 - `12_wiring_diagram.jpg`
 - `13_power_camera.jpg`
+- `14_chassis_cover_hardware.jpg`
 - `14_chassis_cover.jpg`
 - `15_hdmi_connection.jpg`
 - `16_extra_screws.jpg`
