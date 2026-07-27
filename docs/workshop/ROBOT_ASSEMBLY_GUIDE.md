@@ -70,7 +70,7 @@ This guide is for the event table. The robot image should already be created bef
 
 ## Step 6: Battery Holder
 
-<img src="../images/robot/05_battery_holder_hardware.jpg" width="200" alt="KM3x4 battery holder screws">
+<img src="../images/robot/05_battery_holder_hardware.jpg" width="100" alt="KM3x4 battery holder screws">
 
 <img src="../images/robot/05_battery_power.jpg" width="400" alt="battery holder and power switch">
 
