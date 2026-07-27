@@ -5,6 +5,7 @@ These photos support the Pathfinder2026 robot assembly and connect/test guides.
 Used in `docs/workshop/ROBOT_ASSEMBLY_GUIDE.md`:
 
 - `01_robot_unpacked.jpg`
+- `02_wheel_hardware.jpg`
 - `02_wheels.jpg`
 - `03_standoff_hardware.jpg`
 - `03_chassis_standoffs.jpg`

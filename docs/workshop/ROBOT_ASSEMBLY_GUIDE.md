@@ -48,14 +48,17 @@ This guide is for the event table. The robot image should already be created bef
 
 ## Step 4: Mecanum Wheels
 
+<img src="../images/robot/02_wheel_hardware.jpg" width="400" alt="PA2.3x8 wheel screws">
+
 <img src="../images/robot/02_wheels.jpg" width="400" alt="mecanum wheels before installation">
 
 <img src="../images/robot/07_wheels_on.jpg" width="400" alt="mecanum wheels installed on chassis">
 
-1. Install all four mecanum wheels.
-2. Confirm the roller directions are mirrored correctly from left to right.
-3. Spin each wheel by hand and check for rubbing.
-4. Make sure wheel screws are tight before powered driving.
+1. Find the `PA2.3*8` wheel screws.
+2. Install all four mecanum wheels.
+3. Confirm the roller directions are mirrored correctly from left to right.
+4. Spin each wheel by hand and check for rubbing.
+5. Make sure wheel screws are tight before powered driving.
 
 ## Step 5: Battery Holder
 
