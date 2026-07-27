@@ -1,6 +1,6 @@
 # Field Layout
 
-**Last Updated:** July 25, 2026
+**Last Updated:** July 26, 2026
 **Status:** Draft layout notes
 **Companion docs:** [Scoring](SCORING.md) · [Competition Field BOM](BILL_OF_MATERIALS.md)
 
@@ -23,7 +23,7 @@
 |------|----------------|----------|--------------|---------------|
 | Area 1 | Bottom right | 582 | Start and open collection | Blue blocks scattered in open area |
 | Area 2 | Top right | 583 | Red block pickup corner | Red blocks in the 2 ft corner area with the AprilTag |
-| Area 3 | Top left | 584 | Yellow block pickup corner | Yellow blocks on black foam blocks, plus remaining blocks in a row near the AprilTag |
+| Area 3 | Top left | 584 | Yellow block pickup corner | 12 gray foam cubes, 12 black foam cubes, green line to AprilTag, yellow blocks on black cubes plus a row near the tag |
 | Area 4 | Bottom left | 585 | Delivery | 2 ft delivery zone at the AprilTag, taped off with white gaffers tape |
 
 ## Layout Diagram
@@ -83,7 +83,10 @@ Use the [print-ready Pathfinder2026 AprilTags](../../apriltags/README.md) and ve
 
 - Location: top left.
 - AprilTag: 584.
-- Place one yellow block on top of each black foam block.
+- Place 12 gray foam cubes in the area.
+- Place 12 black foam cubes in the area.
+- Place one yellow block on top of each black foam cube.
+- Add a green line that the robot can follow toward AprilTag 584.
 - Place the remaining yellow blocks in a row at the end of the green line next to the AprilTag.
 - Test yellow visibility under event lighting before final scoring is locked.
 
@@ -99,6 +102,8 @@ Use the [print-ready Pathfinder2026 AprilTags](../../apriltags/README.md) and ve
 - [ ] Start square is clear.
 - [ ] Blue blocks are scattered in Area 1.
 - [ ] Red blocks are reset in Area 2.
-- [ ] Yellow blocks are reset in Area 3.
+- [ ] Area 3 has 12 gray foam cubes and 12 black foam cubes.
+- [ ] Area 3 has one yellow block on top of each black foam cube.
+- [ ] Area 3 has the remaining yellow blocks in a row at the end of the green line.
 - [ ] Delivery zone in Area 4 is empty and clearly taped.
 - [ ] Tags 582-585 are flat, visible, and undamaged.
