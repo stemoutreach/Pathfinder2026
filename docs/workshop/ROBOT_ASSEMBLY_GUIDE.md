@@ -116,14 +116,17 @@ This guide is for the event table. The robot image should already be created bef
 
 ## Step 10: Arm, Gripper, And Sonar
 
+<img src="../images/robot/11_arm_hardware.jpg" width="100" alt="PM3x6 arm mounting screws">
+
 <img src="../images/robot/11_arm_assembly.jpg" width="400" alt="arm, gripper, and sonar assembly">
 
-1. Attach the arm base to the robot.
-2. Attach shoulder, elbow, wrist, and gripper assemblies.
-3. Plug the ultrasonic sonar sensor into the middle slot before mounting the arm.
-4. Move the arm gently by hand before powering servos.
-5. Check that the gripper can open and close without hitting the chassis.
-6. Make sure sonar is not blocked by the arm, camera, or team-built storage.
+1. Find the `PM3*6` screws.
+2. Attach the arm base to the robot.
+3. Attach shoulder, elbow, wrist, and gripper assemblies.
+4. Plug the ultrasonic sonar sensor into the middle slot before mounting the arm.
+5. Move the arm gently by hand before powering servos.
+6. Check that the gripper can open and close without hitting the chassis.
+7. Make sure sonar is not blocked by the arm, camera, or team-built storage.
 
 ## Step 11: Power, Camera, And Cable Check
 
