@@ -139,20 +139,28 @@ This guide is for the event table. The robot image should already be created bef
 4. Confirm no cable can snag on the arm.
 5. Do not drive until the connect/test battery check passes.
 
-## Step 13: Covers And Final Notes
+## Step 13: Chassis Cover
 
 <img src="../images/robot/14_chassis_cover_hardware.jpg" width="100" alt="M4x8 screws for chassis cover">
 
 <img src="../images/robot/14_chassis_cover.jpg" width="400" alt="chassis cover assembled">
 
+1. Find the `M4*8` screws.
+2. Attach the top cover after wiring is checked.
+3. Make sure no cables are pinched under the cover.
+4. The cooling fan shown in some older kit photos is not needed for this event build.
+
+## Step 14: HDMI Cable
+
 <img src="../images/robot/15_hdmi_connection.jpg" width="400" alt="micro HDMI cable connected to robot Pi">
 
-<img src="../images/robot/16_extra_screws.jpg" width="300" alt="extra screws after assembly">
+1. If the event build uses a micro HDMI cable, connect it to the robot Pi.
+2. Route the cable cleanly and secure it to the side.
+3. Confirm the cable cannot touch a wheel or snag on the arm.
 
-1. Find the `M4*8` screws and attach the top cover after wiring is checked.
-2. If the event build uses a micro HDMI cable, route it cleanly and secure it to the side.
-3. Extra screws are normal. Keep them in the team parts container.
-4. The cooling fan shown in some older kit photos is not needed for this event build.
+**Note:** Extra parts are normal. Keep them in the team parts container.
+
+<img src="../images/robot/16_extra_screws.jpg" width="300" alt="extra parts after assembly">
 
 ## Ready For robot Pi WiFi Setup In Phase 1
 
