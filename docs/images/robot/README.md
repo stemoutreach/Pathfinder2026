@@ -16,6 +16,7 @@ Used in `docs/workshop/ROBOT_ASSEMBLY_GUIDE.md`:
 - `07_wheel_attach_hardware.jpg`
 - `07_wheels_on.jpg`
 - `08_pi_heatsink_sd_card.jpg`
+- `09_pi_controller_hardware.jpg`
 - `09_pi_chassis_parts.jpg`
 - `10_motor_connections.jpg`
 - `11_arm_assembly.jpg`
