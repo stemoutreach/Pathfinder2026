@@ -48,7 +48,7 @@ This guide is for the event table. The robot image should already be created bef
 
 ## Step 4: Wheel Hub Inserts
 
-<img src="../images/robot/02_wheel_hardware.jpg" width="200" alt="PA2.3x8 wheel screws">
+<img src="../images/robot/02_wheel_hardware.jpg" width="100" alt="PA2.3x8 wheel screws">
 
 <img src="../images/robot/02_wheels.jpg" width="400" alt="mecanum wheels before installation">
 
