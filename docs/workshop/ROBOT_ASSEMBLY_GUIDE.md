@@ -80,14 +80,15 @@ This guide is for the event table. The robot image should already be created bef
 4. Keep the battery holder switch in the `OFF` position.
 5. Do not install batteries until the robot is mechanically assembled and ready for the final cable check.
 
-## Step 7: Arm And Gripper
+## Step 7: Pi Heat Sinks
 
-<img src="../images/robot/11_arm_assembly.jpg" width="400" alt="arm and gripper assembly">
+<img src="../images/robot/08_pi_heatsink_sd_card.jpg" width="400" alt="robot Pi heat sinks and SD card">
 
-1. Attach the arm base to the robot.
-2. Attach shoulder, elbow, wrist, and gripper assemblies.
-3. Move the arm gently by hand before powering servos.
-4. Check that the gripper can open and close without hitting the chassis.
+1. The robot SD card should already be installed for the event.
+2. Do not remove or swap the SD card unless a facilitator asks you to.
+3. Add the heat sinks to the robot Pi chips shown in the photo.
+4. Press each heat sink gently so the adhesive sticks.
+5. Make sure no heat sink touches the GPIO pins or any loose wires.
 
 ## Step 8: Motor Controller Wiring
 
@@ -99,15 +100,14 @@ This guide is for the event table. The robot image should already be created bef
 4. Confirm no cable can touch a wheel.
 5. Do not install batteries yet.
 
-## Step 9: Pi Heat Sinks
+## Step 9: Arm And Gripper
 
-<img src="../images/robot/08_pi_heatsink_sd_card.jpg" width="400" alt="robot Pi heat sinks and SD card">
+<img src="../images/robot/11_arm_assembly.jpg" width="400" alt="arm and gripper assembly">
 
-1. The robot SD card should already be installed for the event.
-2. Do not remove or swap the SD card unless a facilitator asks you to.
-3. Add the heat sinks to the robot Pi chips shown in the photo.
-4. Press each heat sink gently so the adhesive sticks.
-5. Make sure no heat sink touches the GPIO pins or any loose wires.
+1. Attach the arm base to the robot.
+2. Attach shoulder, elbow, wrist, and gripper assemblies.
+3. Move the arm gently by hand before powering servos.
+4. Check that the gripper can open and close without hitting the chassis.
 
 ## Step 10: Camera And Sonar
 
