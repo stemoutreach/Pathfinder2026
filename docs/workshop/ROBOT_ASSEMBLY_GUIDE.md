@@ -26,12 +26,12 @@ This guide is for the event table. The robot image should already be created bef
 
 ## Step 2: Chassis
 
-<img src="../images/robot/03_standoff_hardware.jpg" width="400" alt="M2.5x5+6 standoffs, M4x50 standoffs, and M4x8 screws">
+<img src="../images/robot/03_standoff_hardware.jpg" width="400" alt="M2.5x5+6 standoffs, PM2.5x6 screws, M4x50 standoffs, and M4x8 screws">
 
 <img src="../images/robot/03_chassis_standoffs.jpg" width="400" alt="chassis standoffs installed">
 
 1. Assemble the lower chassis.
-2. Find the `M2.5*5+6` standoffs, `M4*50` standoffs, and `M4*8` screws.
+2. Find the `M2.5*5+6` standoffs, `PM2.5*6` screws, `M4*50` standoffs, and `M4*8` screws.
 3. Add the standoffs.
 4. Keep access to the battery compartment and power switch.
 
