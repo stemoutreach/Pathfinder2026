@@ -90,15 +90,16 @@ This guide is for the event table. The robot image should already be created bef
 4. Press each heat sink gently so the adhesive sticks.
 5. Make sure no heat sink touches the GPIO pins or any loose wires.
 
-## Step 8: Pi And Control Board Mounting
+## Step 8: Add The Raspberry Pi And Controller
 
-<img src="../images/robot/09_pi_chassis_parts.jpg" width="400" alt="robot Pi and control board mounted to chassis">
+<img src="../images/robot/09_pi_chassis_parts.jpg" width="400" alt="Raspberry Pi and controller board added to robot chassis">
 
-1. Mount the robot Pi and control board stack on the chassis standoffs.
-2. Use the white spacers shown in the photo between the boards.
-3. Keep the USB, HDMI, power, and camera ports accessible.
-4. Route loose wires through the chassis opening so they are ready for the motor controller.
-5. Check that the boards are secure before connecting motor wires.
+1. Add the Raspberry Pi and controller board to the robot chassis.
+2. Use the white spacers shown in the photo between the Raspberry Pi and controller board.
+3. Mount the board stack on the chassis standoffs.
+4. Keep the USB, HDMI, power, and camera ports accessible.
+5. Route loose wires through the chassis opening so they are ready for the motor controller.
+6. Check that both boards are secure before connecting motor wires.
 
 ## Step 9: Motor Controller Wiring
 
