@@ -69,9 +69,10 @@ If the battery is low:
 
 If there is no reading:
 
-- Check that the robot power switch is on.
-- Check battery holder wiring.
-- Check that battery power is plugged into the expansion board power jack, not the Raspberry Pi audio jack.
+- Stop before motor tests.
+- The robot Pi is online, but the controller is not reporting battery voltage.
+- Re-check [robot Assembly Guide](../workshop/ROBOT_ASSEMBLY_GUIDE.md), Step 11, especially the expansion board battery power jack.
+- Do not plug battery power into the Raspberry Pi audio jack.
 - Compare with another team.
 - Ask a facilitator before continuing if wiring may be involved.
 
@@ -92,7 +93,7 @@ If one wheel does not move:
 If all wheels do not move:
 
 - Check battery first.
-- Confirm battery power is plugged into the expansion board power jack, not the Raspberry Pi audio jack.
+- If battery voltage cannot be read, re-check [robot Assembly Guide](../workshop/ROBOT_ASSEMBLY_GUIDE.md), Step 11.
 - Confirm the robot is on the floor, not hanging by a cable.
 - Press `Ctrl+C` to stop any running demo, then try again.
 
