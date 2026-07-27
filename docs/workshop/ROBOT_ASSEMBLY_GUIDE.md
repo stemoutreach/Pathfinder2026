@@ -46,21 +46,26 @@ This guide is for the event table. The robot image should already be created bef
 3. Route motor wires through the side opening so they cannot touch the wheels.
 4. Check that each motor is secure before installing wheels.
 
-## Step 4: Mecanum Wheels
+## Step 4: Wheel Hub Inserts
 
 <img src="../images/robot/02_wheel_hardware.jpg" width="400" alt="PA2.3x8 wheel screws">
 
 <img src="../images/robot/02_wheels.jpg" width="400" alt="mecanum wheels before installation">
 
+1. Find the `PA2.3*8` wheel screws.
+2. Attach the white hub inserts to the mecanum wheels.
+3. Confirm each white hub insert is seated flat.
+4. Confirm the roller directions are mirrored correctly from left to right.
+
+## Step 5: Attach Mecanum Wheels
+
 <img src="../images/robot/07_wheels_on.jpg" width="400" alt="mecanum wheels installed on chassis">
 
-1. Find the `PA2.3*8` wheel screws.
-2. Install all four mecanum wheels.
-3. Confirm the roller directions are mirrored correctly from left to right.
-4. Spin each wheel by hand and check for rubbing.
-5. Make sure wheel screws are tight before powered driving.
+1. Attach all four mecanum wheels to the motors.
+2. Spin each wheel by hand and check for rubbing.
+3. Make sure wheel screws are tight before powered driving.
 
-## Step 5: Battery Holder
+## Step 6: Battery Holder
 
 <img src="../images/robot/05_battery_power.jpg" width="400" alt="battery holder and power switch">
 
@@ -69,7 +74,7 @@ This guide is for the event table. The robot image should already be created bef
 3. Keep the battery holder switch in the `OFF` position.
 4. Do not install batteries until the robot is mechanically assembled and ready for the final cable check.
 
-## Step 6: Arm And Gripper
+## Step 7: Arm And Gripper
 
 <img src="../images/robot/11_arm_assembly.jpg" width="400" alt="arm and gripper assembly">
 
@@ -78,7 +83,7 @@ This guide is for the event table. The robot image should already be created bef
 3. Move the arm gently by hand before powering servos.
 4. Check that the gripper can open and close without hitting the chassis.
 
-## Step 7: Camera And Sonar
+## Step 8: Camera And Sonar
 
 <img src="../images/robot/12_wiring_diagram.jpg" width="400" alt="robot wiring diagram">
 
@@ -89,7 +94,7 @@ This guide is for the event table. The robot image should already be created bef
 3. Mount sonar facing forward and level.
 4. Make sure sonar is not blocked by the arm, camera, or team-built storage.
 
-## Step 8: Battery And Cable Check
+## Step 9: Battery And Cable Check
 
 <img src="../images/robot/10_motor_connections.jpg" width="400" alt="motor wires connected to motor controller">
 
@@ -99,7 +104,7 @@ This guide is for the event table. The robot image should already be created bef
 4. Confirm no cable can snag on the arm.
 5. Do not drive until the connect/test battery check passes.
 
-## Step 9: Covers And Final Notes
+## Step 10: Covers And Final Notes
 
 <img src="../images/robot/14_chassis_cover.jpg" width="400" alt="chassis cover assembled">
 
