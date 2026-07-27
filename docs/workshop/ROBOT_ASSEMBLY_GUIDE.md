@@ -26,7 +26,7 @@ This guide is for the event table. The robot image should already be created bef
 
 ## Step 2: Chassis
 
-<img src="../images/robot/03_standoff_hardware.jpg" width="400" alt="M4x50 standoffs and M4x8 screws">
+<img src="../images/robot/03_standoff_hardware.jpg" width="200" alt="M4x50 standoffs and M4x8 screws">
 
 <img src="../images/robot/03_chassis_standoffs.jpg" width="400" alt="chassis standoffs installed">
 
@@ -37,7 +37,7 @@ This guide is for the event table. The robot image should already be created bef
 
 ## Step 3: Motor Assembly
 
-<img src="../images/robot/04_motor_hardware.jpg" width="400" alt="PM3x25 screws and M3 nuts">
+<img src="../images/robot/04_motor_hardware.jpg" width="200" alt="PM3x25 screws and M3 nuts">
 
 <img src="../images/robot/04_motor_assembly.jpg" width="400" alt="motors installed on chassis">
 
@@ -48,7 +48,7 @@ This guide is for the event table. The robot image should already be created bef
 
 ## Step 4: Wheel Hub Inserts
 
-<img src="../images/robot/02_wheel_hardware.jpg" width="400" alt="PA2.3x8 wheel screws">
+<img src="../images/robot/02_wheel_hardware.jpg" width="200" alt="PA2.3x8 wheel screws">
 
 <img src="../images/robot/02_wheels.jpg" width="400" alt="mecanum wheels before installation">
 
