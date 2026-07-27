@@ -126,12 +126,13 @@ This guide is for the event table. The robot image should already be created bef
 
 <img src="../images/robot/12_wiring_diagram.jpg" width="400" alt="robot wiring diagram">
 
-<img src="../images/robot/13_power_camera.jpg" width="400" alt="power and camera connections">
+<img src="../images/robot/13_power_camera.jpg" width="400" alt="power and camera connections with Pi audio jack warning">
 
-1. Plug battery power into the expansion board.
-2. Plug the camera into the middle USB port.
-3. Mount the camera where it can see the floor in front of the robot.
-4. Keep the camera cable away from wheels and arm joints.
+1. Plug battery power into the expansion board power jack.
+2. Do not plug battery power into the Raspberry Pi audio jack. The plug fits, but it is the wrong port.
+3. Plug the camera into the middle USB port.
+4. Mount the camera where it can see the floor in front of the robot.
+5. Keep the camera cable away from wheels and arm joints.
 
 ## Step 12: Battery And Cable Check
 
