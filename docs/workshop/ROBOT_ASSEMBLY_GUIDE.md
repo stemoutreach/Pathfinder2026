@@ -90,7 +90,17 @@ This guide is for the event table. The robot image should already be created bef
 4. Press each heat sink gently so the adhesive sticks.
 5. Make sure no heat sink touches the GPIO pins or any loose wires.
 
-## Step 8: Motor Controller Wiring
+## Step 8: Pi And Control Board Mounting
+
+<img src="../images/robot/09_pi_chassis_parts.jpg" width="400" alt="robot Pi and control board mounted to chassis">
+
+1. Mount the robot Pi and control board stack on the chassis standoffs.
+2. Use the white spacers shown in the photo between the boards.
+3. Keep the USB, HDMI, power, and camera ports accessible.
+4. Route loose wires through the chassis opening so they are ready for the motor controller.
+5. Check that the boards are secure before connecting motor wires.
+
+## Step 9: Motor Controller Wiring
 
 <img src="../images/robot/10_motor_connections.jpg" width="400" alt="motor wires connected to motor controller">
 
@@ -100,7 +110,7 @@ This guide is for the event table. The robot image should already be created bef
 4. Confirm no cable can touch a wheel.
 5. Do not install batteries yet.
 
-## Step 9: Arm And Gripper
+## Step 10: Arm And Gripper
 
 <img src="../images/robot/11_arm_assembly.jpg" width="400" alt="arm and gripper assembly">
 
@@ -109,7 +119,7 @@ This guide is for the event table. The robot image should already be created bef
 3. Move the arm gently by hand before powering servos.
 4. Check that the gripper can open and close without hitting the chassis.
 
-## Step 10: Camera And Sonar
+## Step 11: Camera And Sonar
 
 <img src="../images/robot/12_wiring_diagram.jpg" width="400" alt="robot wiring diagram">
 
@@ -120,7 +130,7 @@ This guide is for the event table. The robot image should already be created bef
 3. Mount sonar facing forward and level.
 4. Make sure sonar is not blocked by the arm, camera, or team-built storage.
 
-## Step 11: Battery And Cable Check
+## Step 12: Battery And Cable Check
 
 1. Confirm the battery holder switch is `OFF`.
 2. Install charged batteries.
@@ -128,7 +138,7 @@ This guide is for the event table. The robot image should already be created bef
 4. Confirm no cable can snag on the arm.
 5. Do not drive until the connect/test battery check passes.
 
-## Step 12: Covers And Final Notes
+## Step 13: Covers And Final Notes
 
 <img src="../images/robot/14_chassis_cover.jpg" width="400" alt="chassis cover assembled">
 
