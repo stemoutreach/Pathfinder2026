@@ -125,27 +125,23 @@ This guide is for the event table. The robot image should already be created bef
 5. Check that the gripper can open and close without hitting the chassis.
 6. Make sure sonar is not blocked by the arm, camera, or team-built storage.
 
-## Step 11: Power And Camera Connections
+## Step 11: Power, Camera, And Cable Check
 
 <img src="../images/robot/12_wiring_diagram.jpg" width="400" alt="robot wiring diagram">
 
 <img src="../images/robot/13_power_camera.jpg" width="400" alt="power and camera connections with Pi audio jack warning">
 
-1. Plug battery power into the expansion board power jack.
-2. Do not plug battery power into the Raspberry Pi audio jack. The plug fits, but it is the wrong port.
-3. Plug the camera into the middle USB port.
-4. Mount the camera where it can see the floor in front of the robot.
-5. Keep the camera cable away from wheels and arm joints.
-
-## Step 12: Battery And Cable Check
-
 1. Confirm the battery holder switch is `OFF`.
-2. Install charged batteries.
-3. Confirm no cable can touch a wheel.
-4. Confirm no cable can snag on the arm.
-5. Do not drive until the connect/test battery check passes.
+2. Do not plug battery power into the Raspberry Pi audio jack. The plug fits, but it is the wrong port.
+3. Plug battery power into the expansion board power jack.
+4. Plug the camera into the middle USB port.
+5. Mount the camera where it can see the floor in front of the robot.
+6. Keep the camera cable away from wheels and arm joints.
+7. Install charged batteries.
+8. Confirm no cable can touch a wheel or snag on the arm.
+9. Do not drive until the connect/test battery check passes.
 
-## Step 13: Chassis Cover
+## Step 12: Chassis Cover
 
 <img src="../images/robot/14_chassis_cover_hardware.jpg" width="100" alt="M4x8 screws for chassis cover">
 
@@ -156,7 +152,7 @@ This guide is for the event table. The robot image should already be created bef
 3. Make sure no cables are pinched under the cover.
 4. The cooling fan shown in some older kit photos is not needed for this event build.
 
-## Step 14: HDMI Cable
+## Step 13: HDMI Cable
 
 <img src="../images/robot/15_hdmi_connection.jpg" width="400" alt="micro HDMI cable connected to robot Pi">
 
