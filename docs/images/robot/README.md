@@ -15,6 +15,7 @@ Used in `docs/workshop/ROBOT_ASSEMBLY_GUIDE.md`:
 - `05_battery_power.jpg`
 - `07_wheel_attach_hardware.jpg`
 - `07_wheels_on.jpg`
+- `08_pi_heatsink_sd_card.jpg`
 - `10_motor_connections.jpg`
 - `11_arm_assembly.jpg`
 - `12_wiring_diagram.jpg`
@@ -41,5 +42,4 @@ Used in `docs/setup/ROBOT_PI_WIFI_SETUP.md`:
 Reference image not currently embedded in the guide:
 
 - `06_fan_assembly.jpg`
-- `08_pi_heatsink_sd_card.jpg`
 - `09_pi_chassis_parts.jpg`

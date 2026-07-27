@@ -80,7 +80,17 @@ This guide is for the event table. The robot image should already be created bef
 4. Keep the battery holder switch in the `OFF` position.
 5. Do not install batteries until the robot is mechanically assembled and ready for the final cable check.
 
-## Step 7: Arm And Gripper
+## Step 7: Pi Heat Sinks
+
+<img src="../images/robot/08_pi_heatsink_sd_card.jpg" width="400" alt="robot Pi heat sinks and SD card">
+
+1. The robot SD card should already be installed for the event.
+2. Do not remove or swap the SD card unless a facilitator asks you to.
+3. Add the heat sinks to the robot Pi chips shown in the photo.
+4. Press each heat sink gently so the adhesive sticks.
+5. Make sure no heat sink touches the GPIO pins or any loose wires.
+
+## Step 8: Arm And Gripper
 
 <img src="../images/robot/11_arm_assembly.jpg" width="400" alt="arm and gripper assembly">
 
@@ -89,7 +99,7 @@ This guide is for the event table. The robot image should already be created bef
 3. Move the arm gently by hand before powering servos.
 4. Check that the gripper can open and close without hitting the chassis.
 
-## Step 8: Camera And Sonar
+## Step 9: Camera And Sonar
 
 <img src="../images/robot/12_wiring_diagram.jpg" width="400" alt="robot wiring diagram">
 
@@ -100,7 +110,7 @@ This guide is for the event table. The robot image should already be created bef
 3. Mount sonar facing forward and level.
 4. Make sure sonar is not blocked by the arm, camera, or team-built storage.
 
-## Step 9: Battery And Cable Check
+## Step 10: Battery And Cable Check
 
 <img src="../images/robot/10_motor_connections.jpg" width="400" alt="motor wires connected to motor controller">
 
@@ -110,7 +120,7 @@ This guide is for the event table. The robot image should already be created bef
 4. Confirm no cable can snag on the arm.
 5. Do not drive until the connect/test battery check passes.
 
-## Step 10: Covers And Final Notes
+## Step 11: Covers And Final Notes
 
 <img src="../images/robot/14_chassis_cover.jpg" width="400" alt="chassis cover assembled">
 
