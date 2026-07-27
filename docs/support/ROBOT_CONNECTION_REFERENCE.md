@@ -124,6 +124,7 @@ For a shorter student checklist, see [Student troubleshooting](TROUBLESHOOTING.m
 **robot does not move:**
 
 - Check battery: `python3 scripts/tools/check_battery.py`.
+- Confirm battery power is plugged into the expansion board power jack, not the Raspberry Pi audio jack.
 - Re-check motor wiring against [robot Assembly Guide](../workshop/ROBOT_ASSEMBLY_GUIDE.md).
 - Try a higher motor power with fresh batteries.
 - Confirm the robot is on the floor, not lifted by a cable or stand.

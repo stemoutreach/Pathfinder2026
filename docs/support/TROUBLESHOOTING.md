@@ -71,6 +71,7 @@ If there is no reading:
 
 - Check that the robot power switch is on.
 - Check battery holder wiring.
+- Check that battery power is plugged into the expansion board power jack, not the Raspberry Pi audio jack.
 - Compare with another team.
 - Ask a facilitator before continuing if wiring may be involved.
 
@@ -91,6 +92,7 @@ If one wheel does not move:
 If all wheels do not move:
 
 - Check battery first.
+- Confirm battery power is plugged into the expansion board power jack, not the Raspberry Pi audio jack.
 - Confirm the robot is on the floor, not hanging by a cable.
 - Press `Ctrl+C` to stop any running demo, then try again.
 

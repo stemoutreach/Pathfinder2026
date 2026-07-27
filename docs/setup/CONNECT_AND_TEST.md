@@ -102,7 +102,7 @@ This should print the platform, battery voltage, status, and note.
 
 If the first battery read is not ready, the script will pause and try again before reporting an error.
 
-If it prints `ERROR: Cannot read battery voltage`, check robot power, battery connection, and the motor board connection before continuing.
+If it prints `ERROR: Cannot read battery voltage`, check robot power, confirm battery power is plugged into the expansion board power jack, and check the motor board connection before continuing. Do not plug battery power into the Raspberry Pi audio jack.
 
 **Battery guide:**
 | Voltage | Status | Action |
