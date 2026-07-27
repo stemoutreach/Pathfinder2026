@@ -70,12 +70,15 @@ This guide is for the event table. The robot image should already be created bef
 
 ## Step 6: Battery Holder
 
+<img src="../images/robot/05_battery_holder_hardware.jpg" width="200" alt="KM3x4 battery holder screws">
+
 <img src="../images/robot/05_battery_power.jpg" width="400" alt="battery holder and power switch">
 
-1. Attach the battery holder.
-2. Note the `ON/OFF` marking on the battery holder.
-3. Keep the battery holder switch in the `OFF` position.
-4. Do not install batteries until the robot is mechanically assembled and ready for the final cable check.
+1. Find the `KM3*4` screws.
+2. Attach the battery holder.
+3. Note the `ON/OFF` marking on the battery holder.
+4. Keep the battery holder switch in the `OFF` position.
+5. Do not install batteries until the robot is mechanically assembled and ready for the final cable check.
 
 ## Step 7: Arm And Gripper
 

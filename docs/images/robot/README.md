@@ -11,6 +11,7 @@ Used in `docs/workshop/ROBOT_ASSEMBLY_GUIDE.md`:
 - `03_chassis_standoffs.jpg`
 - `04_motor_hardware.jpg`
 - `04_motor_assembly.jpg`
+- `05_battery_holder_hardware.jpg`
 - `05_battery_power.jpg`
 - `07_wheel_attach_hardware.jpg`
 - `07_wheels_on.jpg`
