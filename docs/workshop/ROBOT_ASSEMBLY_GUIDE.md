@@ -141,7 +141,7 @@ This guide is for the event table. The robot image should already be created bef
 
 ## Step 13: Covers And Final Notes
 
-<img src="../images/robot/14_chassis_cover.jpg" width="400" alt="chassis cover assembled">
+<img src="../images/robot/14_chassis_cover.jpg" width="100" alt="chassis cover assembled">
 
 <img src="../images/robot/15_hdmi_connection.jpg" width="400" alt="micro HDMI cable connected to robot Pi">
 
