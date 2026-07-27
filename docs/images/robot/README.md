@@ -12,6 +12,7 @@ Used in `docs/workshop/ROBOT_ASSEMBLY_GUIDE.md`:
 - `04_motor_hardware.jpg`
 - `04_motor_assembly.jpg`
 - `05_battery_power.jpg`
+- `07_wheel_attach_hardware.jpg`
 - `07_wheels_on.jpg`
 - `10_motor_connections.jpg`
 - `11_arm_assembly.jpg`
