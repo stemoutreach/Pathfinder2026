@@ -26,15 +26,18 @@ This guide is for the event table. The robot image should already be created bef
 
 ## Step 2: Chassis
 
+<img src="../images/robot/03_standoff_hardware.jpg" width="400" alt="M4x50 standoffs and M4x8 screws">
+
 <img src="../images/robot/03_chassis_standoffs.jpg" width="400" alt="chassis standoffs installed">
 
 <img src="../images/robot/04_motor_assembly.jpg" width="400" alt="motors installed on chassis">
 
 1. Assemble the lower chassis.
-2. Add the standoffs.
-3. Mount the motor brackets.
-4. Route motor wires through the side opening so they cannot touch the wheels.
-5. Keep access to the battery compartment and power switch.
+2. Find the `M4*50` standoffs and `M4*8` screws.
+3. Add the standoffs.
+4. Mount the motor brackets.
+5. Route motor wires through the side opening so they cannot touch the wheels.
+6. Keep access to the battery compartment and power switch.
 
 ## Step 3: Mecanum Wheels
 
