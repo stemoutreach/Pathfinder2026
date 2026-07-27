@@ -57,7 +57,16 @@ This guide is for the event table. The robot image should already be created bef
 3. Spin each wheel by hand and check for rubbing.
 4. Make sure wheel screws are tight before powered driving.
 
-## Step 5: Arm And Gripper
+## Step 5: Battery Holder
+
+<img src="../images/robot/05_battery_power.jpg" width="400" alt="battery holder and power switch">
+
+1. Attach the battery holder.
+2. Note the `ON/OFF` marking on the battery holder.
+3. Keep the battery holder switch in the `OFF` position.
+4. Do not install batteries until the robot is mechanically assembled and ready for the final cable check.
+
+## Step 6: Arm And Gripper
 
 <img src="../images/robot/11_arm_assembly.jpg" width="400" alt="arm and gripper assembly">
 
@@ -66,7 +75,7 @@ This guide is for the event table. The robot image should already be created bef
 3. Move the arm gently by hand before powering servos.
 4. Check that the gripper can open and close without hitting the chassis.
 
-## Step 6: Camera And Sonar
+## Step 7: Camera And Sonar
 
 <img src="../images/robot/12_wiring_diagram.jpg" width="400" alt="robot wiring diagram">
 
@@ -77,19 +86,17 @@ This guide is for the event table. The robot image should already be created bef
 3. Mount sonar facing forward and level.
 4. Make sure sonar is not blocked by the arm, camera, or team-built storage.
 
-## Step 7: Battery And Cable Check
-
-<img src="../images/robot/05_battery_power.jpg" width="400" alt="battery holder and power switch">
+## Step 8: Battery And Cable Check
 
 <img src="../images/robot/10_motor_connections.jpg" width="400" alt="motor wires connected to motor controller">
 
-1. Install charged batteries.
-2. Confirm the battery holder is secure.
+1. Confirm the battery holder switch is `OFF`.
+2. Install charged batteries.
 3. Confirm no cable can touch a wheel.
 4. Confirm no cable can snag on the arm.
 5. Do not drive until the connect/test battery check passes.
 
-## Step 8: Covers And Final Notes
+## Step 9: Covers And Final Notes
 
 <img src="../images/robot/14_chassis_cover.jpg" width="400" alt="chassis cover assembled">
 
